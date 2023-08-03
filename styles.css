@@ -1,0 +1,43 @@
+/*
+body{
+  background-image: url(https://img.freepik.com/free-vector/soccer-volleyball-baseball-rugby-equipment_1441-4026.jpg?q=10&h=200);
+   background-repeat: no-repeat; 
+
+} */
+.container {
+  border: 2px solid black;
+  height: 4000px;
+}
+.box {
+  display: inline-block;
+  border: 2px solid red;
+  width: 150px;
+  height: 150px;
+  margin: 2px;
+}
+
+#box2 {
+  /* position:absolute; */
+  /* position:relative; 
+  
+  top: 50px;
+  left: 100px;*/
+  position: fixed;
+  left: 600px;
+}
+#box4 {
+  position: static;
+  left: 1000px;
+  top: 3000px;
+}
+#box3:hover {
+  background-color: grey;
+  border-radius: 15px;
+}
+#box1:hover {
+  background-color: green;
+  border-radius: 10px;
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
